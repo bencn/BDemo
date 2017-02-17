@@ -15,3 +15,6 @@ develop feature2
 
 master
 ready to release version 1
+
+develop some code
+develop some code2
