@@ -15,3 +15,9 @@ develop feature2
 
 master
 ready to release version 1
+
+develop something
+prepare to release
+
+release bugfix
+release bugfix2
