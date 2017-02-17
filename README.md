@@ -8,3 +8,6 @@ second edit
 establish a develop branch
 write some code,
 prepare to merge into master
+
+master
+ready to release version 1
