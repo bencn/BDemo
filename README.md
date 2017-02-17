@@ -25,3 +25,4 @@ release bugfix2
 hotfix
 
 release again
+release
