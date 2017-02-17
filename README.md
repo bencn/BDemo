@@ -6,3 +6,5 @@ i add this words
 second edit
 
 establish a develop branch
+write some code,
+prepare to merge into master
