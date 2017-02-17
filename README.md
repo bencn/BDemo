@@ -13,3 +13,6 @@ prepare to release
 
 test1
 test2
+
+fixbug
+release
