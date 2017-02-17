@@ -68,9 +68,6 @@
 				B5153C111E56EB7A00D16283 /* SecondViewController.h */,
 				B5153C121E56EB7A00D16283 /* SecondViewController.m */,
 				B5153C141E56EB7A00D16283 /* Main.storyboard */,
-				B5153C171E56EB7A00D16283 /* Assets.xcassets */,
-				B5153C191E56EB7A00D16283 /* LaunchScreen.storyboard */,
-				B5153C1C1E56EB7A00D16283 /* Info.plist */,
 				B5153C081E56EB7A00D16283 /* Supporting Files */,
 			);
 			path = BDemo;
@@ -80,6 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				B5153C091E56EB7A00D16283 /* main.m */,
+				B5153C191E56EB7A00D16283 /* LaunchScreen.storyboard */,
+				B5153C171E56EB7A00D16283 /* Assets.xcassets */,
+				B5153C1C1E56EB7A00D16283 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -313,6 +313,7 @@
 				B5153C211E56EB7A00D16283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
