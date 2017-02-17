@@ -21,3 +21,7 @@ prepare to release
 
 release bugfix
 release bugfix2
+
+hotfix
+
+release again
