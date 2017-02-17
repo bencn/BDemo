@@ -22,7 +22,14 @@ prepare to release
 release bugfix
 release bugfix2
 
-hotfix
+develop some code
+develop some code2
 
-release again
+develop code3
+
+0217
+develop code
+prepare release
+
+develop code
 release
