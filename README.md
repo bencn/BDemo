@@ -9,5 +9,9 @@ establish a develop branch
 write some code,
 prepare to merge into master
 
+develop:
+develop feature1
+develop feature2
+
 master
 ready to release version 1
