@@ -14,6 +14,8 @@
 		B5153C161E56EB7A00D16283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5153C141E56EB7A00D16283 /* Main.storyboard */; };
 		B5153C181E56EB7A00D16283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5153C171E56EB7A00D16283 /* Assets.xcassets */; };
 		B5153C1B1E56EB7A00D16283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5153C191E56EB7A00D16283 /* LaunchScreen.storyboard */; };
+		B5153C281E56F2A900D16283 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B5153C261E56F2A900D16283 /* LICENSE */; };
+		B5153C291E56F2A900D16283 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B5153C271E56F2A900D16283 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		B5153C171E56EB7A00D16283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5153C1A1E56EB7A00D16283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5153C1C1E56EB7A00D16283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5153C261E56F2A900D16283 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		B5153C271E56F2A900D16283 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				B5153C191E56EB7A00D16283 /* LaunchScreen.storyboard */,
 				B5153C171E56EB7A00D16283 /* Assets.xcassets */,
 				B5153C1C1E56EB7A00D16283 /* Info.plist */,
+				B5153C261E56F2A900D16283 /* LICENSE */,
+				B5153C271E56F2A900D16283 /* README.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -144,6 +150,7 @@
 			files = (
 				B5153C1B1E56EB7A00D16283 /* LaunchScreen.storyboard in Resources */,
 				B5153C181E56EB7A00D16283 /* Assets.xcassets in Resources */,
+				B5153C281E56F2A900D16283 /* LICENSE in Resources */,
 				B5153C161E56EB7A00D16283 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,6 +164,7 @@
 			files = (
 				B5153C131E56EB7A00D16283 /* SecondViewController.m in Sources */,
 				B5153C0D1E56EB7A00D16283 /* AppDelegate.m in Sources */,
+				B5153C291E56F2A900D16283 /* README.md in Sources */,
 				B5153C101E56EB7A00D16283 /* FirstViewController.m in Sources */,
 				B5153C0A1E56EB7A00D16283 /* main.m in Sources */,
 			);
