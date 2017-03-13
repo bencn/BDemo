@@ -7,6 +7,8 @@
 //
 
 #import "FirstViewController.h"
+#import <objc/objc.h>
+#import "BKLine.h"
 
 @interface FirstViewController ()
 
@@ -17,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    BKLine *line = [[BKLine alloc] init];
+    line.low = 0;
 }
 
 
