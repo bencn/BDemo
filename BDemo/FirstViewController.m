@@ -18,10 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    BStudent *stu = [BStudent new];
-    [stu addObserver:self forKeyPath:@"str" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
-    stu.str = @"hehe";
-    [stu removeObserver:self forKeyPath:@"str"];
+    NSLog(@"%s %d", __func__, __LINE__);
+    NSLog(@"%@", self);
 }
 
 
@@ -34,6 +32,11 @@
     if([keyPath isEqualToString:@"str"]) {
         NSLog(@"%@", change);
     }
+}
+
+- (NSString *)description {
+    NSLog(@"%@hehe", self);
+    return [NSString stringWithFormat:@"haha"];
 }
 
 @end
