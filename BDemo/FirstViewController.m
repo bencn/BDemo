@@ -7,8 +7,7 @@
 //
 
 #import "FirstViewController.h"
-#import <objc/objc.h>
-#import "BKLine.h"
+#import "BStudent.h"
 
 @interface FirstViewController ()
 
@@ -19,8 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    BKLine *line = [[BKLine alloc] init];
-    line.low = 0;
+    BStudent *stu = [BStudent new];
+    [stu addObserver:self forKeyPath:@"str" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
+    stu.str = @"hehe";
+    [stu removeObserver:self forKeyPath:@"str"];
 }
 
 
@@ -29,5 +30,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
+    if([keyPath isEqualToString:@"str"]) {
+        NSLog(@"%@", change);
+    }
+}
 
 @end

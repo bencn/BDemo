@@ -15,7 +15,7 @@
 		B5153C181E56EB7A00D16283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5153C171E56EB7A00D16283 /* Assets.xcassets */; };
 		B5153C1B1E56EB7A00D16283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5153C191E56EB7A00D16283 /* LaunchScreen.storyboard */; };
 		B5153C281E56F2A900D16283 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B5153C261E56F2A900D16283 /* LICENSE */; };
-		B523A97A1E769DA8009835D7 /* BKLine.m in Sources */ = {isa = PBXBuildFile; fileRef = B523A9791E769DA8009835D7 /* BKLine.m */; };
+		B5FE06491E947E7700DE9B84 /* BStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FE06481E947E7700DE9B84 /* BStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +34,8 @@
 		B5153C261E56F2A900D16283 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		B5153C271E56F2A900D16283 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		B523A9771E6EA55D009835D7 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		B523A9781E769DA8009835D7 /* BKLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKLine.h; sourceTree = "<group>"; };
-		B523A9791E769DA8009835D7 /* BKLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKLine.m; sourceTree = "<group>"; };
+		B5FE06471E947E7700DE9B84 /* BStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BStudent.h; sourceTree = "<group>"; };
+		B5FE06481E947E7700DE9B84 /* BStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BStudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +74,8 @@
 				B5153C0F1E56EB7A00D16283 /* FirstViewController.m */,
 				B5153C111E56EB7A00D16283 /* SecondViewController.h */,
 				B5153C121E56EB7A00D16283 /* SecondViewController.m */,
-				B523A9781E769DA8009835D7 /* BKLine.h */,
-				B523A9791E769DA8009835D7 /* BKLine.m */,
+				B5FE06471E947E7700DE9B84 /* BStudent.h */,
+				B5FE06481E947E7700DE9B84 /* BStudent.m */,
 				B5153C081E56EB7A00D16283 /* Supporting Files */,
 			);
 			path = BDemo;
@@ -170,10 +170,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5153C131E56EB7A00D16283 /* SecondViewController.m in Sources */,
+				B5FE06491E947E7700DE9B84 /* BStudent.m in Sources */,
 				B5153C0D1E56EB7A00D16283 /* AppDelegate.m in Sources */,
 				B5153C101E56EB7A00D16283 /* FirstViewController.m in Sources */,
 				B5153C0A1E56EB7A00D16283 /* main.m in Sources */,
-				B523A97A1E769DA8009835D7 /* BKLine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
