@@ -18,8 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"%s %d", __func__, __LINE__);
-    NSLog(@"%@", self);
+//    NSLog(@"%s %d", __func__, __LINE__);
+//    NSLog(@"%@", self);
+    id obj = [BStudent new];
+    NSLog(@"%s", [obj isKindOfClass:[NSObject class]] ? "yes" : "no");
 }
 
 

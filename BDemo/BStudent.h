@@ -11,5 +11,6 @@
 @interface BStudent : NSObject
 
 @property (strong, nonatomic) NSString *str;
+@property (weak, nonatomic, readonly, getter=isSting) NSString *string;
 
 @end
