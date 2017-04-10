@@ -21,7 +21,7 @@
 //    NSLog(@"%s %d", __func__, __LINE__);
 //    NSLog(@"%@", self);
     id obj = [BStudent new];
-    NSLog(@"%s", [obj isKindOfClass:[NSObject class]] ? "yes" : "no");
+    NSLog(@"%s", [obj isMemberOfClass:[BStudent class]] ? "yes" : "no");
 }
 
 
