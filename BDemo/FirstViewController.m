@@ -8,6 +8,7 @@
 
 #import "FirstViewController.h"
 #import "BStudent.h"
+#import <objc/runtime.h>
 
 @interface FirstViewController ()
 
@@ -20,8 +21,19 @@
     // Do any additional setup after loading the view, typically from a nib.
 //    NSLog(@"%s %d", __func__, __LINE__);
 //    NSLog(@"%@", self);
-    id obj = [BStudent new];
-    NSLog(@"%s", [obj isMemberOfClass:[BStudent class]] ? "yes" : "no");
+//    id obj = [BStudent new];
+//    NSLog(@"%s", [obj isMemberOfClass:[BStudent class]] ? "yes" : "no");
+//    BStudent *student = [[BStudent alloc] init];
+    NSMutableDictionary *dict = [NSMutableDictionary new];
+    NSMutableArray *array = [NSMutableArray new];
+    unsigned int outCount = 0;
+    Ivar *ivarList = class_copyIvarList([NSObject class], &outCount);
+    for (int i = 0; i < outCount; i++) {
+        dict[@"type"] = [NSString stringWithUTF8String:ivar_getTypeEncoding(ivarList[i])];
+        dict[@"name"] = [NSString stringWithUTF8String:ivar_getName(ivarList[i])];
+        [array addObject:dict];
+    }
+    NSLog(@"%@", array);
 }
 
 
