@@ -17,4 +17,20 @@
     return self;
 }
 
+- (void)hehe {
+    NSLog(@"%@",self);
+}
+
++ (void)load {
+    NSLog(@"load");
+}
+
++ (void)initialize {
+    NSLog(@"initialize");
+}
+
+- (void)dealloc {
+    NSLog(@"%s %d", __func__, __LINE__);
+}
+
 @end

@@ -13,4 +13,6 @@
 @property (strong, nonatomic) NSString *str;
 @property (weak, nonatomic, readonly, getter=isSting) NSString *string;
 
+- (void)hehe;
+
 @end

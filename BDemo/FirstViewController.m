@@ -24,6 +24,11 @@
 //    id obj = [BStudent new];
 //    NSLog(@"%s", [obj isMemberOfClass:[BStudent class]] ? "yes" : "no");
     BStudent *student = [BStudent new];
+//    [student hehe];
+    NSLog(@"%@", [student class]);
+    SEL sel = @selector(alloc);
+    NSLog(@"%@",[BStudent respondsToSelector:sel] ? @"yes" : @"no");
+    NSLog(@"%@",[BStudent instancesRespondToSelector:sel] ? @"yes" : @"no");
 //    NSMutableDictionary *dict = [NSMutableDictionary new];
 //    NSMutableArray *array = [NSMutableArray new];
 //    unsigned int outCount = 0;
