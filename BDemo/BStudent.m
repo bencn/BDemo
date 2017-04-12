@@ -12,7 +12,7 @@
 
 - (instancetype)init {
     if(self = [super init]) {
-        self.str = @"hello";
+        NSLog(@"hello");
     }
     return self;
 }
