@@ -23,7 +23,7 @@
 //    NSLog(@"%@", self);
 //    id obj = [BStudent new];
 //    NSLog(@"%s", [obj isMemberOfClass:[BStudent class]] ? "yes" : "no");
-    BStudent *student = [BStudent new];
+//    BStudent *student = [BStudent new];
 //    [student retain];
     [BStudent load];
     [BStudent initialize];
