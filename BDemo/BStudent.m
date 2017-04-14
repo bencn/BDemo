@@ -7,6 +7,11 @@
 //
 
 #import "BStudent.h"
+#import "BStudent_BExtension.h"
+
+@interface BStudent ()
+
+@end
 
 @implementation BStudent
 

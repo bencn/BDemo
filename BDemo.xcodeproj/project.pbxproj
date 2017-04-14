@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50D339A1EA0AB480068350E /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B50D33981EA0AB480068350E /* BViewController.m */; };
+		B50D339B1EA0AB480068350E /* BViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B50D33991EA0AB480068350E /* BViewController.xib */; };
 		B5107A7A1E9FB9BC003F5F91 /* BStudent+BCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B5107A791E9FB9BC003F5F91 /* BStudent+BCategory.m */; };
 		B5153C0A1E56EB7A00D16283 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5153C091E56EB7A00D16283 /* main.m */; };
 		B5153C0D1E56EB7A00D16283 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5153C0C1E56EB7A00D16283 /* AppDelegate.m */; };
@@ -20,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B50D33971EA0AB480068350E /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		B50D33981EA0AB480068350E /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		B50D33991EA0AB480068350E /* BViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BViewController.xib; sourceTree = "<group>"; };
 		B5107A771E9FB9A8003F5F91 /* BProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BProtocol.h; path = ../BProtocol.h; sourceTree = "<group>"; };
 		B5107A781E9FB9BC003F5F91 /* BStudent+BCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BStudent+BCategory.h"; sourceTree = "<group>"; };
 		B5107A791E9FB9BC003F5F91 /* BStudent+BCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BStudent+BCategory.m"; sourceTree = "<group>"; };
@@ -79,6 +84,9 @@
 				B5153C0F1E56EB7A00D16283 /* FirstViewController.m */,
 				B5153C111E56EB7A00D16283 /* SecondViewController.h */,
 				B5153C121E56EB7A00D16283 /* SecondViewController.m */,
+				B50D33971EA0AB480068350E /* BViewController.h */,
+				B50D33981EA0AB480068350E /* BViewController.m */,
+				B50D33991EA0AB480068350E /* BViewController.xib */,
 				B5FE06471E947E7700DE9B84 /* BStudent.h */,
 				B5FE06481E947E7700DE9B84 /* BStudent.m */,
 				B5107A771E9FB9A8003F5F91 /* BProtocol.h */,
@@ -164,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50D339B1EA0AB480068350E /* BViewController.xib in Resources */,
 				B5153C1B1E56EB7A00D16283 /* LaunchScreen.storyboard in Resources */,
 				B5153C181E56EB7A00D16283 /* Assets.xcassets in Resources */,
 				B5153C281E56F2A900D16283 /* LICENSE in Resources */,
@@ -178,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50D339A1EA0AB480068350E /* BViewController.m in Sources */,
 				B5153C131E56EB7A00D16283 /* SecondViewController.m in Sources */,
 				B5FE06491E947E7700DE9B84 /* BStudent.m in Sources */,
 				B5153C0D1E56EB7A00D16283 /* AppDelegate.m in Sources */,
