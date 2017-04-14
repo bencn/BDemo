@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5107A7A1E9FB9BC003F5F91 /* BStudent+BCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B5107A791E9FB9BC003F5F91 /* BStudent+BCategory.m */; };
 		B5153C0A1E56EB7A00D16283 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5153C091E56EB7A00D16283 /* main.m */; };
 		B5153C0D1E56EB7A00D16283 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5153C0C1E56EB7A00D16283 /* AppDelegate.m */; };
 		B5153C101E56EB7A00D16283 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5153C0F1E56EB7A00D16283 /* FirstViewController.m */; };
@@ -19,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5107A771E9FB9A8003F5F91 /* BProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BProtocol.h; path = ../BProtocol.h; sourceTree = "<group>"; };
+		B5107A781E9FB9BC003F5F91 /* BStudent+BCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BStudent+BCategory.h"; sourceTree = "<group>"; };
+		B5107A791E9FB9BC003F5F91 /* BStudent+BCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BStudent+BCategory.m"; sourceTree = "<group>"; };
+		B5107A7B1E9FB9CC003F5F91 /* BStudent_BExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BStudent_BExtension.h; sourceTree = "<group>"; };
 		B5153C051E56EB7A00D16283 /* BDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5153C091E56EB7A00D16283 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5153C0B1E56EB7A00D16283 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,8 +79,12 @@
 				B5153C0F1E56EB7A00D16283 /* FirstViewController.m */,
 				B5153C111E56EB7A00D16283 /* SecondViewController.h */,
 				B5153C121E56EB7A00D16283 /* SecondViewController.m */,
+				B5107A771E9FB9A8003F5F91 /* BProtocol.h */,
 				B5FE06471E947E7700DE9B84 /* BStudent.h */,
 				B5FE06481E947E7700DE9B84 /* BStudent.m */,
+				B5107A781E9FB9BC003F5F91 /* BStudent+BCategory.h */,
+				B5107A791E9FB9BC003F5F91 /* BStudent+BCategory.m */,
+				B5107A7B1E9FB9CC003F5F91 /* BStudent_BExtension.h */,
 				B5153C081E56EB7A00D16283 /* Supporting Files */,
 			);
 			path = BDemo;
@@ -174,6 +183,7 @@
 				B5153C0D1E56EB7A00D16283 /* AppDelegate.m in Sources */,
 				B5153C101E56EB7A00D16283 /* FirstViewController.m in Sources */,
 				B5153C0A1E56EB7A00D16283 /* main.m in Sources */,
+				B5107A7A1E9FB9BC003F5F91 /* BStudent+BCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
