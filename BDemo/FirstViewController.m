@@ -10,6 +10,8 @@
 #import "BStudent.h"
 #import <objc/runtime.h>
 
+typedef void(^StringBlock)();
+
 @interface FirstViewController ()
 
 @end
@@ -19,14 +21,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
 //    NSLog(@"%s %d", __func__, __LINE__);
 //    NSLog(@"%@", self);
 //    id obj = [BStudent new];
 //    NSLog(@"%s", [obj isMemberOfClass:[BStudent class]] ? "yes" : "no");
-//    BStudent *student = [BStudent new];
+    BStudent *student = [BStudent new];
+//    [student setValue:nil forKey:@"block"];
+    [student runBlock];
+    StringBlock stringblock = ^{};
+    stringblock();
 //    [student retain];
-    [BStudent load];
-    [BStudent initialize];
+//    [BStudent load];
+//    [BStudent initialize];
     
 //    [student hehe];
 //    NSLog(@"%@", [student class]);

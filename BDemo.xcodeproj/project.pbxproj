@@ -87,12 +87,12 @@
 				B50D33971EA0AB480068350E /* BViewController.h */,
 				B50D33981EA0AB480068350E /* BViewController.m */,
 				B50D33991EA0AB480068350E /* BViewController.xib */,
+				B5107A7B1E9FB9CC003F5F91 /* BStudent_BExtension.h */,
 				B5FE06471E947E7700DE9B84 /* BStudent.h */,
 				B5FE06481E947E7700DE9B84 /* BStudent.m */,
-				B5107A771E9FB9A8003F5F91 /* BProtocol.h */,
 				B5107A781E9FB9BC003F5F91 /* BStudent+BCategory.h */,
 				B5107A791E9FB9BC003F5F91 /* BStudent+BCategory.m */,
-				B5107A7B1E9FB9CC003F5F91 /* BStudent_BExtension.h */,
+				B5107A771E9FB9A8003F5F91 /* BProtocol.h */,
 				B5153C081E56EB7A00D16283 /* Supporting Files */,
 			);
 			path = BDemo;

@@ -15,5 +15,6 @@
 @property (retain, nonatomic) NSDictionary *dict;
 
 - (void)hehe;
+- (void)runBlock;
 
 @end

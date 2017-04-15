@@ -8,6 +8,10 @@
 
 #import "BStudent.h"
 
+typedef void(^Block)(void);
+
 @interface BStudent ()
+
+@property (strong, nonatomic) Block block;
 
 @end

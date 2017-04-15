@@ -26,6 +26,12 @@
     NSLog(@"%@",self);
 }
 
+- (void)runBlock {
+    self.block = ^{NSLog(@"%s %d", __func__, __LINE__);};
+//    self.block = nil;
+    self.block();
+}
+
 + (void)load {
     NSLog(@"load");
 }
