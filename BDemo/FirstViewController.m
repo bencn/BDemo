@@ -26,20 +26,20 @@ typedef void(^StringBlock)();
 //    NSLog(@"%@", self);
 //    id obj = [BStudent new];
 //    NSLog(@"%s", [obj isMemberOfClass:[BStudent class]] ? "yes" : "no");
-    BStudent *student = [BStudent new];
+//    BStudent *student = [BStudent new];
 //    [student setValue:nil forKey:@"block"];
-    [student runBlock];
-    StringBlock stringblock = ^{};
-    stringblock();
+//    [student runBlock];
+//    StringBlock stringblock = ^{};
+//    stringblock();
 //    [student retain];
 //    [BStudent load];
 //    [BStudent initialize];
     
 //    [student hehe];
 //    NSLog(@"%@", [student class]);
-    SEL sel = @selector(alloc);
-    NSLog(@"%@",[BStudent respondsToSelector:sel] ? @"yes" : @"no");
-    NSLog(@"%@",[BStudent instancesRespondToSelector:sel] ? @"yes" : @"no");
+//    SEL sel = @selector(alloc);
+//    NSLog(@"%@",[BStudent respondsToSelector:sel] ? @"yes" : @"no");
+//    NSLog(@"%@",[BStudent instancesRespondToSelector:sel] ? @"yes" : @"no");
 //    NSMutableDictionary *dict = [NSMutableDictionary new];
 //    NSMutableArray *array = [NSMutableArray new];
 //    unsigned int outCount = 0;
@@ -50,6 +50,10 @@ typedef void(^StringBlock)();
 //        [array addObject:dict];
 //    }
 //    NSLog(@"%@", array);
+//    NSNumber
+//    NSLog(@"%i", ([@10 intValue] + [@20 intValue]));
+    
+//    __block int a = 10;
 }
 
 
