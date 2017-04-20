@@ -25,7 +25,6 @@
 		B50D33971EA0AB480068350E /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
 		B50D33981EA0AB480068350E /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 		B50D33991EA0AB480068350E /* BViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BViewController.xib; sourceTree = "<group>"; };
-		B5107A771E9FB9A8003F5F91 /* BProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BProtocol.h; path = ../BProtocol.h; sourceTree = "<group>"; };
 		B5107A781E9FB9BC003F5F91 /* BStudent+BCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BStudent+BCategory.h"; sourceTree = "<group>"; };
 		B5107A791E9FB9BC003F5F91 /* BStudent+BCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BStudent+BCategory.m"; sourceTree = "<group>"; };
 		B5107A7B1E9FB9CC003F5F91 /* BStudent_BExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BStudent_BExtension.h; sourceTree = "<group>"; };
@@ -44,6 +43,7 @@
 		B5153C261E56F2A900D16283 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		B5153C271E56F2A900D16283 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		B523A9771E6EA55D009835D7 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B53F8D4D1EA8926700665625 /* BStudentProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BStudentProtocol.h; sourceTree = "<group>"; };
 		B5FE06471E947E7700DE9B84 /* BStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BStudent.h; sourceTree = "<group>"; };
 		B5FE06481E947E7700DE9B84 /* BStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BStudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,11 +88,11 @@
 				B50D33981EA0AB480068350E /* BViewController.m */,
 				B50D33991EA0AB480068350E /* BViewController.xib */,
 				B5107A7B1E9FB9CC003F5F91 /* BStudent_BExtension.h */,
+				B53F8D4D1EA8926700665625 /* BStudentProtocol.h */,
 				B5FE06471E947E7700DE9B84 /* BStudent.h */,
 				B5FE06481E947E7700DE9B84 /* BStudent.m */,
 				B5107A781E9FB9BC003F5F91 /* BStudent+BCategory.h */,
 				B5107A791E9FB9BC003F5F91 /* BStudent+BCategory.m */,
-				B5107A771E9FB9A8003F5F91 /* BProtocol.h */,
 				B5153C081E56EB7A00D16283 /* Supporting Files */,
 			);
 			path = BDemo;

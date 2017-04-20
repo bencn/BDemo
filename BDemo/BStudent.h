@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol BStudentProtocol;
+
 @interface BStudent : NSObject
 
 @property (strong, nonatomic) NSString *str;
