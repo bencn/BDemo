@@ -33,11 +33,11 @@
 }
 
 + (void)load {
-    NSLog(@"load");
+    NSLog(@"BStudent load");
 }
 
 + (void)initialize {
-    NSLog(@"initialize");
+    NSLog(@"BStudent initialize");
 }
 
 - (void)dealloc {

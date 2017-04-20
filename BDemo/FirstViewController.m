@@ -54,6 +54,10 @@ typedef void(^StringBlock)();
 //    NSLog(@"%i", ([@10 intValue] + [@20 intValue]));
     
 //    __block int a = 10;
+    NSString *string = [NSString stringWithFormat:@"hello"];
+//    NSRange range = [string rangeOfString:@"l"];
+//    NSString *rangeToString = NSStringFromRange([string rangeOfString:@"l"]);
+    NSLog(@"%@", NSStringFromRange([string rangeOfString:@"l"]));
 }
 
 
