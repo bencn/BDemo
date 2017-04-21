@@ -54,10 +54,23 @@ typedef void(^StringBlock)();
 //    NSLog(@"%i", ([@10 intValue] + [@20 intValue]));
     
 //    __block int a = 10;
-    NSString *string = [NSString stringWithFormat:@"hello"];
+//    NSString *string = [NSString stringWithFormat:@"hello"];
 //    NSRange range = [string rangeOfString:@"l"];
 //    NSString *rangeToString = NSStringFromRange([string rangeOfString:@"l"]);
-    NSLog(@"%@", NSStringFromRange([string rangeOfString:@"l"]));
+//    NSLog(@"%@", NSStringFromRange([string rangeOfString:@"l"]));
+    
+//    [[NSArray new] enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+//        void;
+//    }];
+//    NSArray *array = @[@0,@1];
+//    NSMutableArray *arrayM = @{@1:@2};
+//    [arrayM addObject:@3];
+    
+    int a = 10;
+    NSLog(@"%@",@(a));
+//    NSDictionary *dict = @{@0:@1, @"0":@2};
+//    NSLog(@"%@",dict);
+    
 }
 
 
