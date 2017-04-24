@@ -68,6 +68,7 @@ typedef void(^StringBlock)();
     
     int a = 10;
     NSLog(@"%@",@(a));
+    
 //    NSDictionary *dict = @{@0:@1, @"0":@2};
 //    NSLog(@"%@",dict);
     
