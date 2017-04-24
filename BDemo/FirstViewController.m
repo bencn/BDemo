@@ -67,8 +67,16 @@ typedef void(^StringBlock)();
 //    [arrayM addObject:@3];
     
     int a = 10;
-    NSLog(@"%@",@(a));
-    
+//    NSLog(@"%@",@(a));
+    static dispatch_once_t onceToken;
+    for (int i = 0; i < 2; ++i) {
+        dispatch_once(&onceToken, ^{
+            NSLog(@"%@",@(a));
+        });
+    }
+//    dispatch_once(&onceToken, ^{
+//        NSLog(@"%@",@(a));
+//    });
 //    NSDictionary *dict = @{@0:@1, @"0":@2};
 //    NSLog(@"%@",dict);
     
