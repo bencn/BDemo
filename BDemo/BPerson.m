@@ -8,9 +8,11 @@
 
 #import "BPerson.h"
 
-static BPerson *_instance = nil;
+//static BPerson *_instance = nil;
 
 @implementation BPerson
+
+static BPerson *_instance = nil;
 
 + (instancetype)sharePerson {
     BPerson *instance = [self new];

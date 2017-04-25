@@ -9,6 +9,7 @@
 #import "FirstViewController.h"
 #import "BStudent.h"
 #import "BPerson.h"
+#import "BPerson2.h"
 #import <objc/runtime.h>
 
 typedef void(^StringBlock)();
@@ -87,6 +88,10 @@ typedef void(^StringBlock)();
 //    NSDictionary *dict = @{@0:@1, @"0":@2};
 //    NSLog(@"%@",dict);
     
+//    BPerson2 *p1 = [BPerson2 new];
+//    BPerson2 *p2 = [BPerson2 shareBPerson2];
+//    BPerson2 *p3 = [p1 mutableCopy];
+//    NSLog(@"%p %p %p", p1, p2, p3);
 }
 
 
