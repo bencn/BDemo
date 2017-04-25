@@ -8,6 +8,7 @@
 
 #import "FirstViewController.h"
 #import "BStudent.h"
+#import "BPerson.h"
 #import <objc/runtime.h>
 
 typedef void(^StringBlock)();
@@ -66,14 +67,20 @@ typedef void(^StringBlock)();
 //    NSMutableArray *arrayM = @{@1:@2};
 //    [arrayM addObject:@3];
     
-    int a = 10;
+//    int a = 10;
 //    NSLog(@"%@",@(a));
-    static dispatch_once_t onceToken;
-    for (int i = 0; i < 2; ++i) {
-        dispatch_once(&onceToken, ^{
-            NSLog(@"%@",@(a));
-        });
-    }
+//    static dispatch_once_t onceToken;
+//    for (int i = 0; i < 2; ++i) {
+//        dispatch_once(&onceToken, ^{
+//            NSLog(@"%@",@(a));
+//        });
+//    }
+
+//    BPerson *p2 = [BPerson new];
+//    BPerson *p1 = [BPerson sharePerson];
+//    BPerson *p3 = [p2 copy];
+//    NSLog(@"%p %p %p", p1, p2, p3);
+    
 //    dispatch_once(&onceToken, ^{
 //        NSLog(@"%@",@(a));
 //    });
