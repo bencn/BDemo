@@ -35,4 +35,11 @@
     completionHandler(NCUpdateResultNewData);
 }
 
+- (IBAction)buttonClick:(UIButton *)sender {
+    NSURL *url = [NSURL URLWithString:@"weixin://scanqrcode"];
+    [self.extensionContext openURL:url completionHandler:^(BOOL success) {
+        NSLog(@"open url: %d", success);
+    }];
+}
+
 @end

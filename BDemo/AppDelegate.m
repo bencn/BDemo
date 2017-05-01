@@ -47,4 +47,12 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+    NSURL *goalURL = [NSURL URLWithString:@"alipayqr://platformapi/startapp?saId=10000007"];
+    [[UIApplication sharedApplication] openURL:goalURL options:nil completionHandler:^(BOOL success) {
+        NSLog(@"open url: %d", success);
+    }];
+    return YES;
+}
+
 @end
