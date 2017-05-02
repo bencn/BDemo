@@ -48,10 +48,10 @@
 }
 
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
-    NSURL *goalURL = [NSURL URLWithString:@"alipayqr://platformapi/startapp?saId=10000007"];
-    [[UIApplication sharedApplication] openURL:goalURL options:nil completionHandler:^(BOOL success) {
-        NSLog(@"open url: %d", success);
-    }];
+//    NSURL *goalURL = [NSURL URLWithString:@"alipayqr://platformapi/startapp?saId=10000007"];
+//    [[UIApplication sharedApplication] openURL:goalURL options:nil completionHandler:^(BOOL success) {
+//        NSLog(@"open url: %d", success);
+//    }];
     return YES;
 }
 

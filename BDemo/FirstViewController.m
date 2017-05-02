@@ -94,7 +94,6 @@ typedef void(^StringBlock)();
 //    NSLog(@"%p %p %p", p1, p2, p3);
 }
 
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
