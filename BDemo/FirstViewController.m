@@ -16,6 +16,8 @@ typedef void(^StringBlock)();
 
 @interface FirstViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
 @end
 
 @implementation FirstViewController

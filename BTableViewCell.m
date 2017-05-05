@@ -10,6 +10,12 @@
 
 @implementation BTableViewCell
 
++ (instancetype)tableViewCell {
+    return [[[NSBundle mainBundle] loadNibNamed:@"BTableViewCell" owner:nil options:nil] lastObject];
+}
+
+//- (instancetype)initWithCoder:(NSCoder *)aDecoder
+
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code

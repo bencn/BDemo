@@ -65,7 +65,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="ve4-iC-cb2"/>
                     <connections>
-                        <outlet property="label" destination="KQZ-1w-vlD" id="I6E-q4-VdI"/>
+                        <outlet property="label" destination="KQZ-1w-vlD" id="mKQ-KJ-Gov"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>

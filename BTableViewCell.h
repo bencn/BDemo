@@ -10,4 +10,6 @@
 
 @interface BTableViewCell : UITableViewCell
 
++ (instancetype)tableViewCell;
+
 @end
