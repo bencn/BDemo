@@ -14,7 +14,7 @@
     return [[[NSBundle mainBundle] loadNibNamed:@"BTableViewCell" owner:nil options:nil] lastObject];
 }
 
-//- (instancetype)initWithCoder:(NSCoder *)aDecoder
+//- (instancetype)initWithCoder:(NSCoder *)aDecoder;
 
 - (void)awakeFromNib {
     [super awakeFromNib];
