@@ -26,6 +26,7 @@ typedef void(^StringBlock)();
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 //    NSLog(@"%@", [NSObject new]);
+    
 }
 
 - (void)didReceiveMemoryWarning {
