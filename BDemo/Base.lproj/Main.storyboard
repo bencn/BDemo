@@ -33,7 +33,7 @@
                                 <state key="normal" title="Button2"/>
                                 <connections>
                                     <action selector="button2Click:" destination="9pv-A4-QxB" eventType="touchUpInside" id="PYw-kz-dI4"/>
-                                    <segue destination="lyW-2S-3C4" kind="show" id="YfQ-ke-YSn"/>
+                                    <segue destination="lyW-2S-3C4" kind="presentation" id="YfQ-ke-YSn"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD" userLabel="Label1">
@@ -148,7 +148,7 @@
         <!--View Controller-->
         <scene sceneID="5vU-HU-2u2">
             <objects>
-                <viewController id="lyW-2S-3C4" sceneMemberID="viewController">
+                <viewController id="lyW-2S-3C4" customClass="BViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Wix-g4-msi"/>
                         <viewControllerLayoutGuide type="bottom" id="RxR-v9-fhw"/>
@@ -161,6 +161,9 @@
                                 <rect key="frame" x="164" y="318" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonClick:" destination="lyW-2S-3C4" eventType="touchUpInside" id="mRh-Wx-KFO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
