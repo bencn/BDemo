@@ -12,8 +12,6 @@
 #import "BPerson2.h"
 #import <objc/runtime.h>
 
-typedef void(^StringBlock)();
-
 @interface FirstViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *label;
