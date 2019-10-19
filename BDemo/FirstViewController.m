@@ -12,7 +12,7 @@
 #import "BPerson2.h"
 #import <objc/runtime.h>
 
-@interface FirstViewController ()
+@interface FirstViewController () 
 
 @property (weak, nonatomic) IBOutlet UILabel *label;
 
@@ -22,7 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib. 
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
