@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B5107A7A1E9FB9BC003F5F91 /* BStudent+BCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B5107A791E9FB9BC003F5F91 /* BStudent+BCategory.m */; };
-		B513FEDD1EB78F460053C0A7 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B513FEDC1EB78F460053C0A7 /* NotificationCenter.framework */; };
-		B513FEE11EB78F460053C0A7 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B513FEE01EB78F460053C0A7 /* TodayViewController.m */; };
-		B513FEE41EB78F460053C0A7 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B513FEE21EB78F460053C0A7 /* MainInterface.storyboard */; };
-		B513FEE81EB78F460053C0A7 /* Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B513FEDA1EB78F460053C0A7 /* Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B513FEF21EB91C1B0053C0A7 /* BTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B513FEF01EB91C1B0053C0A7 /* BTableViewCell.m */; };
 		B513FEF31EB91C1B0053C0A7 /* BTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B513FEF11EB91C1B0053C0A7 /* BTableViewCell.xib */; };
 		B5153C0A1E56EB7A00D16283 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5153C091E56EB7A00D16283 /* main.m */; };
@@ -29,16 +25,6 @@
 		B5FE06491E947E7700DE9B84 /* BStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FE06481E947E7700DE9B84 /* BStudent.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B513FEE61EB78F460053C0A7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B5153BFD1E56EB7A00D16283 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B513FED91EB78F460053C0A7;
-			remoteInfo = Widget;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		B513FEEC1EB78F460053C0A7 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -46,7 +32,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				B513FEE81EB78F460053C0A7 /* Widget.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,7 +42,6 @@
 		B5107A781E9FB9BC003F5F91 /* BStudent+BCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BStudent+BCategory.h"; sourceTree = "<group>"; };
 		B5107A791E9FB9BC003F5F91 /* BStudent+BCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BStudent+BCategory.m"; sourceTree = "<group>"; };
 		B5107A7B1E9FB9CC003F5F91 /* BStudent_BExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BStudent_BExtension.h; sourceTree = "<group>"; };
-		B513FEDA1EB78F460053C0A7 /* Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Widget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		B513FEDC1EB78F460053C0A7 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		B513FEDF1EB78F460053C0A7 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
 		B513FEE01EB78F460053C0A7 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
@@ -98,14 +82,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B513FED71EB78F460053C0A7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B513FEDD1EB78F460053C0A7 /* NotificationCenter.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B5153C021E56EB7A00D16283 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -150,7 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				B5153C051E56EB7A00D16283 /* BDemo.app */,
-				B513FEDA1EB78F460053C0A7 /* Widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -206,23 +181,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B513FED91EB78F460053C0A7 /* Widget */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B513FEEB1EB78F460053C0A7 /* Build configuration list for PBXNativeTarget "Widget" */;
-			buildPhases = (
-				B513FED61EB78F460053C0A7 /* Sources */,
-				B513FED71EB78F460053C0A7 /* Frameworks */,
-				B513FED81EB78F460053C0A7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Widget;
-			productName = Widget;
-			productReference = B513FEDA1EB78F460053C0A7 /* Widget.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		B5153C041E56EB7A00D16283 /* BDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5153C1F1E56EB7A00D16283 /* Build configuration list for PBXNativeTarget "BDemo" */;
@@ -235,7 +193,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				B513FEE71EB78F460053C0A7 /* PBXTargetDependency */,
 			);
 			name = BDemo;
 			productName = BDemo;
@@ -251,19 +208,9 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = TB;
 				TargetAttributes = {
-					B513FED91EB78F460053C0A7 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = HPRN66WT48;
-						ProvisioningStyle = Automatic;
-						SystemCapabilities = {
-							com.apple.ApplicationGroups.iOS = {
-								enabled = 1;
-							};
-						};
-					};
 					B5153C041E56EB7A00D16283 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = HPRN66WT48;
+						DevelopmentTeam = VH4JF3CT25;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -287,20 +234,11 @@
 			projectRoot = "";
 			targets = (
 				B5153C041E56EB7A00D16283 /* BDemo */,
-				B513FED91EB78F460053C0A7 /* Widget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B513FED81EB78F460053C0A7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B513FEE41EB78F460053C0A7 /* MainInterface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B5153C031E56EB7A00D16283 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -316,14 +254,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B513FED61EB78F460053C0A7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B513FEE11EB78F460053C0A7 /* TodayViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B5153C011E56EB7A00D16283 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,14 +273,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B513FEE71EB78F460053C0A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B513FED91EB78F460053C0A7 /* Widget */;
-			targetProxy = B513FEE61EB78F460053C0A7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B513FEE21EB78F460053C0A7 /* MainInterface.storyboard */ = {
@@ -380,42 +302,11 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B513FEE91EB78F460053C0A7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = Widget/Widget.entitlements;
-				DEVELOPMENT_TEAM = HPRN66WT48;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = Widget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Ben.BDemo.Widget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		B513FEEA1EB78F460053C0A7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = Widget/Widget.entitlements;
-				DEVELOPMENT_TEAM = HPRN66WT48;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = Widget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Ben.BDemo.Widget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		B5153C1D1E56EB7A00D16283 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -442,6 +333,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -463,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -474,6 +366,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -500,6 +393,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -515,7 +409,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -527,7 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = BDemo/BDemo.entitlements;
-				DEVELOPMENT_TEAM = HPRN66WT48;
+				DEVELOPMENT_TEAM = VH4JF3CT25;
 				INFOPLIST_FILE = BDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ben.BDemo;
@@ -540,7 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = BDemo/BDemo.entitlements;
-				DEVELOPMENT_TEAM = HPRN66WT48;
+				DEVELOPMENT_TEAM = VH4JF3CT25;
 				INFOPLIST_FILE = BDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ben.BDemo;
@@ -551,15 +445,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B513FEEB1EB78F460053C0A7 /* Build configuration list for PBXNativeTarget "Widget" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B513FEE91EB78F460053C0A7 /* Debug */,
-				B513FEEA1EB78F460053C0A7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
 		B5153C001E56EB7A00D16283 /* Build configuration list for PBXProject "BDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
